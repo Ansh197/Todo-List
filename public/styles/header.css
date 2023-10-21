@@ -1,0 +1,22 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: #1B1A17;
+}
+.div-container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: #1B1A17;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 0px;
+    padding: 1.5rem 25rem;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+.brand{
+    margin-right: auto;
+    margin-left: 0;
+}

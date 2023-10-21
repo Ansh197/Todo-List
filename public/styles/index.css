@@ -1,0 +1,124 @@
+.display{
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    display: flex;
+    width: 24rem;
+    margin: 0px auto;
+    padding: 2rem 0rem;
+    gap: 1.5rem;
+    border-radius: 1.7rem;
+    margin-top: 3rem;
+}
+.quote{
+    margin-bottom: 0.5rem;
+}
+
+.quote1{
+    font-size: 1.7rem;
+    font-weight: 550;
+}
+
+.quote2{
+    font-size: 1.2rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
+    margin-left: 0.3rem;
+}
+.widget{
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+.taskForm{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.task{
+    width: 17rem;
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1rem;
+}
+
+.btn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+}
+
+.btn img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.taskContainer{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.taskItems{
+    background-color: white ;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 22rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul>li>input{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid orange;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    height: 1.2rem;
+    width: 1.2rem;
+    content: '✔';
+    color: white;
+    border-radius: 50%; 
+} 
+
+ul>li>input:checked{
+    background-color: rgb(112, 239, 112);
+    border: 1px solid rgb(112, 239, 112);
+}
